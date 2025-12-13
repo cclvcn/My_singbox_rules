@@ -177,8 +177,8 @@
             "type": "urltest",
             "tag": "🎈 自动选择",
             "url": "https://www.gstatic.com/generate_204",
-            "interval": "3m",
-            "tolerance": 150,
+            "interval": "30m",
+            "tolerance": 600,
             "interrupt_exist_connections": true,
             "outbounds": []
         },
@@ -186,60 +186,90 @@
             "tag": "流量多",
             "type": "urltest",
             "url": "https://www.youtube.com/generate_204",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量少",
             "type": "urltest",
             "url": "https://www.gstatic.com/generate_204/",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量多-USA",
             "type": "urltest",
             "url": "https://chatgpt.com/",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量少-USA",
             "type": "urltest",
             "url": "https://chatgpt.com/",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量多-SG",
             "type": "urltest",
             "url": "https://chatgpt.com/",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量少-SG",
             "type": "urltest",
             "url": "https://chatgpt.com/",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量多-HK",
             "type": "urltest",
             "url": "https://www.youtube.com/generate_204",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量少-HK",
             "type": "urltest",
             "url": "https://www.youtube.com/generate_204",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量多-JP",
             "type": "urltest",
             "url": "https://www.youtube.com/generate_204",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         },
         {
             "tag": "流量少-JP",
             "type": "urltest",
             "url": "https://www.youtube.com/generate_204",
+            "interval": "30m",
+            "tolerance": 600,
+            "interrupt_exist_connections": true,
             "outbounds": []
         }
     ],
