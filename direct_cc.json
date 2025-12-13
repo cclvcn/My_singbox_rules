@@ -1,9 +1,10 @@
 {
-    "rules": [
-        {
-            "domain_suffix": [
-                 "pcl.ac.cn"
-            ]
-        }
-    ]
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "pcl.ac.cn"
+      ]
+    }
+  ]
 }
