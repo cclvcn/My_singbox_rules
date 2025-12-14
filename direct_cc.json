@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
-        "pcl.ac.cn"
+        "pcl.ac.cn",
+        "nikon"
       ]
     }
   ]
