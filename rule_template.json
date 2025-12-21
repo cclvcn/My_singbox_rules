@@ -324,6 +324,11 @@
             },
             {
                 "action": "route",
+                "rule_set": ["direct_cc"],
+                "outbound": "🎯 全球直连"
+            },
+            {
+                "action": "route",
                 "rule_set": [
                     "GeoSite-CN"
                 ],
@@ -426,10 +431,6 @@
             {
                 "rule_set": "geoip-netflix",
                 "outbound": "🎥 Netflix"
-            },
-            {
-                "rule_set": "direct_cc",
-                "outbound": "🎯 全球直连"
             }
         ],
         "rule_set": [
