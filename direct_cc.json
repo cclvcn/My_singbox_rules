@@ -3,8 +3,13 @@
   "rules": [
     {
       "domain_suffix": [
-        "pcl.ac.cn",
-        "nikon"
+        "pcl",
+        "nikon",
+        "archlinux.org",
+        "aur.archlinux.org",
+        "mirror.archlinux.org",
+        "archive.archlinux.org",
+        "packages.archlinux.org"
       ]
     }
   ]
